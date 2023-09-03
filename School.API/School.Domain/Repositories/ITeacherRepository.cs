@@ -1,22 +1,21 @@
 ﻿using School.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace School.Domain.Repositories
 {
-    internal interface ITeacherRepository
+    public interface ITeacherRepository
     {
         Task<List<Teacher>> GetTeachers();
 
         Task<Teacher> GetTeacher(int id);
 
-        Task AddTeacher(Teacher teacher);  
+        void AddTeacher(Teacher teacher);
 
-        Task UpdateTeacher(Teacher teacher);
+        void UpdateTeacher(Teacher teacher);
 
-        Task DeleteTeacher(int id);
+        void DeleteTeacher(Teacher teacher);
+
+        Task<bool> TeacherExists(int id);
+
+       Task<bool> SaveChanges();
     }
 }

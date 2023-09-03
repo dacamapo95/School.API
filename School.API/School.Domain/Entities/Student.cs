@@ -10,8 +10,6 @@
 
         public string Email { get; set; }
 
-        public virtual Course Course { get; set; }
-
         public List<Grade> Grades { get; set; }
     }
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tvFqFqyRpU46FpeCHtbd6oBzE93H1S9Uas7hD5Fl/bz0c5RC+gC5GX3uVZD39i3/4mWZ2F562v5QbxTJ85xHxA==",
+  "dgSpecHash": "tuCGEOqy/6DFjVrO9pH1tjX9xl+v57gZcqQbRpoHZEqASXbzw83nVG1tlmpzn9NErAz56kzDzpvD4w69gT5XEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\daniel.males\\Documents\\Cursos Desarrollo\\SchoolAPI\\School.API\\School.Domain\\School.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\daniel.males\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\daniel.males\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\daniel.males\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -6,10 +6,18 @@ namespace School.Domain.Repositories
     {
         Task<List<Student>> GetStudents();
 
-        Task<Student> GetStudent(int id);
+        Task<Student> GetStudentById(int id);
 
-        Task AddStudent(Student student);
+        void AddStudent(Student student);
 
-        Task DeleteStudent(int id);
+        void UpdateStudent(Student student);
+
+        void DeleteStudent(Student student);
+
+        Task<bool> StudentExists(int id);
+
+        Task<bool> SaveChanges();
+
+
     }
 }

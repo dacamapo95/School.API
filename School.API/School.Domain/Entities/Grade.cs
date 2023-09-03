@@ -8,6 +8,8 @@
 
         public double GradeValue { get; set; }
 
-        public virtual Student Student { get; set; }
+        public int StudentId { get; set; }
+
+        public Student Student { get; set; }
     }
 }

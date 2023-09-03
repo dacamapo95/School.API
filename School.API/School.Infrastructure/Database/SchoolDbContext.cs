@@ -24,12 +24,13 @@ namespace School.Infrastructure.Database
                 .Entity<Student>()
                 .HasMany(student => student.Grades)
                 .WithOne(grade => grade.Student)
-                .HasForeignKey(grade => grade.Student);
+                .HasForeignKey(grade => grade.StudentId);
 
             //modelBuilder
             //    .Entity<Teacher>()
             //    .HasMany(student => student.Courses)
-            //    .WithOne()
+            //    .WithOne(course => course.Teacher)
+            //    .HasForeignKey(course => course.Teacher);
 
             base.OnModelCreating(modelBuilder);
         }

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.API", "School.API\School.API.csproj", "{CF83C7BB-24D2-4109-A87F-937666F94649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.API", "School.API\School.API.csproj", "{CF83C7BB-24D2-4109-A87F-937666F94649}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{01EE10D3-C07F-4DD6-894E-94687AEA0F87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{112C6C16-2B00-48F5-825D-FE4DBE759CD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Domain", "School.Domain\School.Domain.csproj", "{E5F1F51B-4FDB-4C65-A50D-D19013EF7C9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Domain", "School.Domain\School.Domain.csproj", "{E5F1F51B-4FDB-4C65-A50D-D19013EF7C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Infrastructure", "School.Infrastructure\School.Infrastructure.csproj", "{B3B9C564-E4B7-4C8B-A293-6915F4EB5523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Infrastructure", "School.Infrastructure\School.Infrastructure.csproj", "{B3B9C564-E4B7-4C8B-A293-6915F4EB5523}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
