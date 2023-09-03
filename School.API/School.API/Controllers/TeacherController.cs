@@ -48,7 +48,7 @@ namespace School.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateStudent(int id, [FromBody] TeacherDTO teacher)
+        public async Task<IActionResult> UpdateTeacher(int id, [FromBody] TeacherDTO teacher)
         {
             if (teacher == null) return BadRequest();
 
@@ -65,7 +65,7 @@ namespace School.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteStudent(int id)
+        public async Task<IActionResult> DeleteTeacher(int id)
         {
             var teacherToDelete = await _teacherRepository.GetTeacher(id);
 
